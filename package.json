@@ -1,0 +1,16 @@
+{
+  "name": "news-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
