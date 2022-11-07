@@ -8,5 +8,17 @@
 }
 
 .btn {
-  @apply px-10 py-6 bg-primary text-white uppercase
+  @apply px-10 py-4 bg-primary text-white uppercase hover:bg-black
+}
+
+.nav-link-item {
+  @apply hover:text-red-500
+}
+
+.list {
+  background-color: #00011a;
+}
+
+.list-title {
+  color: #deaa65;
 }
